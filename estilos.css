@@ -1,3 +1,4 @@
+
 body{
     background-color: white;
 }
@@ -9,6 +10,9 @@ background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, F
 
 padding: 2% 0% 2% 0%;
 margin-top: 2%;
+position: sticky;
+top:0;
+z-index:2;
 }
 
 .costado{
@@ -32,10 +36,14 @@ img{
     color: #834349;
     
 }
-#modooscuro{
+.clasemodooscuro{
     color: #6d393d;
     font-size:30px;
-    
+}
+
+.clasemodoclaro{
+    color: white;
+    font-size:30px;
 }
 
 a:link {
@@ -44,14 +52,24 @@ a:link {
     color: #f7e6e8;
 }
   
-a:focus {
+a:focus, a:hover {
     border-bottom: 1px solid;
     background: #945b62;
 }
   
-a:hover {
+a:visited {
     border-bottom: 1px solid;
-    background: #945b62;
+    color:#f7e6e8;
+    ;
 }
-  
-  
+
+#modooscuro {
+    cursor: pointer;
+    margin: 2% 2% 0 0;
+}
+
+@media (max-width: 769px) and (orientation: landscape) {
+    .encabezado{
+        position: static;
+    }
+    }
