@@ -11,18 +11,6 @@ document.getElementById('modooscuro').onclick= function(){
         document.getElementById('modooscuro').style.color= '#6d393d'
     }
 } */
-// let modoosc = document.querySelectorAll('.modooscuro');
-
-//       for (let [i, cv] of modoosc.entries()) {
-//           cv.addEventListener('click', function focus() {
-//               resetFocus();
-//               cv.classList.toggle("modoclaro")
-//           })
-//       }
-
-//       function resetFocus() {
-//         modoosc.forEach(el => el.classList.remove("modooscuro"))
-//       }
 
 // let modoosc = document.getElementById('modooscuro').style.color
 // document.getElementById('modooscuro').addEventListener("click", function () {
@@ -38,7 +26,6 @@ document.getElementById('modooscuro').onclick= function(){
 
 
 
-//let modocl = document.getElementById("modooscuro").getElementsByClassName("clasemodoclaro");
 document.getElementById('modooscuro').addEventListener("click", function () {
     let clasemodo = document.getElementById("modooscuro").classList.contains('clasemodooscuro');
     switch (clasemodo) {
