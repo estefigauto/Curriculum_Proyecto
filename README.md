@@ -18,7 +18,7 @@ el atributo radius para redondear la imagen
 tuve en cuenta el width device medium de bootstrap para el meddia querie
 -responsividad: utilice el meta viewport, clases de bootstrap.
 -media queries: utilice un media querie para que tome un diseno diferente (el header se mueva) cuando la pantalla adopte un ancho y una orientacion determinada.
--protocolo Open Graph: utilice estos meta, pero no pude probarlos
+-protocolo Open Graph: utilice estos meta de open graph.
 
 
 Bibliografia utilizada:
